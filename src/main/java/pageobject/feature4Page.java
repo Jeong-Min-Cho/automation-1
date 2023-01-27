@@ -7,8 +7,6 @@ import org.openqa.selenium.WebDriver;
 
 import framework.AADriver;
 
-import org.openqa.selenium.WebElement;
-import java.lang.reflect.Field;
 //<IMPORTS>
 
 public class feature4Page {
