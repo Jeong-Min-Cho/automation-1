@@ -1,4 +1,4 @@
 @GoogleSearch
 Feature: Google
 Scenario: Type into Google
-Given user opens to "google.com"
+Given user opens to "https://www.google.com/"
