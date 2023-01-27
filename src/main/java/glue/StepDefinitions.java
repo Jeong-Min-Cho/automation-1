@@ -112,6 +112,26 @@ public void method8(String param21, String param22, String param23) throws Throw
 myDriver.typeOnPage(param21, param22, param23);//<CODE>
 }
 
+ @Then("^user types \"([^\"]*)\" text into \"([^\"]*)\" textbox on \"([^\"]*)\" page$")
+public void method8(String param21, String param22, String param23) throws Throwable {
+// Write code here that turns the phrase above into concrete actions
+//<CODE>
+}
+
+ @And("^user waits \"([^\"]*)\" seconds$")
+public void method9(String param31) throws Throwable {
+// Write code here that turns the phrase above into concrete actions//waits1
+int seconds = Integer.parseInt(param31);
+int milliseconds = 1000;
+Thread.sleep(seconds*milliseconds);//<CODE>
+}
+
+ @Then("^user clicks \"([^\"]*)\" button on \"([^\"]*)\" page$")
+public void method10(String param41, String param42) throws Throwable {
+// Write code here that turns the phrase above into concrete actions
+//<CODE>
+}
+
  //<METHOD>
 
 
