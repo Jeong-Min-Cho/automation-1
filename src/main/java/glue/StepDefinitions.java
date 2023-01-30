@@ -63,6 +63,26 @@ Thread.sleep(10000);
 
 
 
+ @Given("^user opens to \"([^\"]*)\"$")
+public void method0(String param11) throws Throwable {
+// Write code here that turns the phrase above into concrete actions//navigation2
+driver.get(param11);//<CODE>
+}
+
+ @Then("^user types \"([^\"]*)\" text into \"([^\"]*)\" textbox on \"([^\"]*)\" page$")
+public void method1(String param21, String param22, String param23) throws Throwable {
+// Write code here that turns the phrase above into concrete actions
+//<CODE>
+}
+
+ @And("^user waits \"([^\"]*)\" seconds$")
+public void method2(String param31) throws Throwable {
+// Write code here that turns the phrase above into concrete actions//waits1
+int seconds = Integer.parseInt(param31);
+int milliseconds = 1000;
+Thread.sleep(seconds*milliseconds);//<CODE>
+}
+
  //<METHOD>
 
 
